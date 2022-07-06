@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 2
   cardSprite: {fileID: 0}
-  option1Text: 
-  option2Text: 
-  option1Card: {fileID: 0}
-  option2Card: {fileID: 0}
+  optionAText: C
+  optionBText: D
+  optionACard: {fileID: 0}
+  optionBCard: {fileID: 0}
   endingCard: 0

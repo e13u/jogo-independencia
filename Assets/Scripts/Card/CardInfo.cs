@@ -9,10 +9,14 @@ public class CardInfo : ScriptableObject
     public string _cardName { get { return cardName; } }
     [SerializeField] private Sprite cardSprite;
     public Sprite _cardSprite { get { return cardSprite; } }
-    [SerializeField] private string option1Text;
-    [SerializeField] private string option2Text;
-    [SerializeField] private CardInfo option1Card;
-    [SerializeField] private CardInfo option2Card;
+    [SerializeField] private string optionAText;
+    public string _optionAText { get { return optionAText; } }
+    [SerializeField] private string optionBText;
+    public string _optionBText { get { return optionBText; } }
+    [SerializeField] private CardInfo optionACard;
+    public CardInfo _optionACard { get { return optionACard; } }
+    [SerializeField] private CardInfo optionBCard;
+    public CardInfo _optionBCard { get { return optionBCard; } }
     [SerializeField] private bool endingCard;
 
     // Start is called before the first frame update
