@@ -6,7 +6,9 @@ using UnityEngine;
 public class CardInfo : ScriptableObject
 {
     [SerializeField] private string cardName;
+    public string _cardName { get { return cardName; } }
     [SerializeField] private Sprite cardSprite;
+    public Sprite _cardSprite { get { return cardSprite; } }
     [SerializeField] private string option1Text;
     [SerializeField] private string option2Text;
     [SerializeField] private CardInfo option1Card;

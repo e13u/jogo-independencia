@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    private List<CardInfo> initialCards = new List<CardInfo>();
-    [SerializeField] CardInfo currentCard;
-
+    [SerializeField] private List<CardInfo> initialCards = new List<CardInfo>();
+    [SerializeField] private CardInfo currentCard;
+    [Space]
+    [Header("UI Elements")]
+    [SerializeField] private TMP_Text cardName;
+    [SerializeField] private SpriteRenderer cardSpriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +36,8 @@ public class GameManager : MonoBehaviour
 
     void ShowCardData(CardInfo card)
     {
-
+        cardName.text = card._cardName;
+        cardSpriteRenderer.sprite = card._cardSprite;
     }
 
     // Update is called once per frame
