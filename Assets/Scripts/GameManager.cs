@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     void FirstCardShow()
     {
         cardOptionText.alpha = 0;
+        cardOptionText.text = "";
         int randIndex = Random.Range(0, initialCards.Count);
         currentCard = initialCards[randIndex];
         ShowCardData(currentCard);
