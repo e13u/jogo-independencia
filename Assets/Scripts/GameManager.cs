@@ -6,13 +6,17 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    [SerializeField] private CardSwap cardSwap;
     [SerializeField] private List<CardInfo> initialCards = new List<CardInfo>();
     [SerializeField] private CardInfo currentCard;
     [Space]
     [Header("UI Elements")]
     [SerializeField] private TMP_Text cardName;
+    [SerializeField] private TMP_Text cardQuestionText;
     [SerializeField] private TMP_Text cardOptionText;
     [SerializeField] private SpriteRenderer cardSpriteRenderer;
+    public SpriteRenderer bckgRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +45,7 @@ public class GameManager : MonoBehaviour
     {
         cardName.text = card._cardName;
         cardSpriteRenderer.sprite = card._cardSprite;
+        if (card._endingCard) cardSwap.enabled = false;
     }
 
     // Update is called once per frame
@@ -70,9 +75,28 @@ public class GameManager : MonoBehaviour
 
     public void ChooseOptionSide(bool right)
     {
-        if (right) currentCard = currentCard._optionBCard;
-        else currentCard = currentCard._optionACard;
-
+        if (right)
+        {
+            if(currentCard._optionBCard.Count == 1)
+            {
+                currentCard = currentCard._optionBCard[0];
+            }
+            else
+            {
+                currentCard = currentCard._optionBCard[Random.Range(0, currentCard._optionBCard.Count-1)];
+            }
+        }
+        else
+        {
+            if (currentCard._optionACard.Count == 1)
+            {
+                currentCard = currentCard._optionACard[0];
+            }
+            else
+            {
+                currentCard = currentCard._optionACard[Random.Range(0, currentCard._optionACard.Count - 1)];
+            }
+        }
         ShowCardData(currentCard);
     }
 }

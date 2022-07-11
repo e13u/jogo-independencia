@@ -13,11 +13,13 @@ public class CardInfo : ScriptableObject
     public string _optionAText { get { return optionAText; } }
     [SerializeField] private string optionBText;
     public string _optionBText { get { return optionBText; } }
-    [SerializeField] private CardInfo optionACard;
-    public CardInfo _optionACard { get { return optionACard; } }
-    [SerializeField] private CardInfo optionBCard;
-    public CardInfo _optionBCard { get { return optionBCard; } }
+    [SerializeField] private List<CardInfo> optionACard = new List<CardInfo>();
+    public List<CardInfo> _optionACard { get { return optionACard; } }
+    [SerializeField] private List<CardInfo> optionBCard = new List<CardInfo>();
+    public List<CardInfo> _optionBCard { get { return optionBCard; } }
     [SerializeField] private bool endingCard;
+    public bool _endingCard { get { return endingCard; } }
+
 
     // Start is called before the first frame update
     void Start()

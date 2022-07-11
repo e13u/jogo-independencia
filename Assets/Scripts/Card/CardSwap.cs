@@ -47,6 +47,9 @@ public class CardSwap : MonoBehaviour
             //GameManager.Instance.CardOptionAlpha(Mathf.Min(-transform.position.x, 1));
             GameManager.Instance.CardOptionText(false);
         }
+        if (transform.position.x > cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.red;
+        else if (transform.position.x < -cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.green;
+        else GameManager.Instance.bckgRenderer.color = Color.blue;
     }
 
     private void OnMouseOver()

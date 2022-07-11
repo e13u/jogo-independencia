@@ -16,6 +16,12 @@ MonoBehaviour:
   cardSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   optionAText: A
   optionBText: B
-  optionACard: {fileID: 11400000, guid: ac1b36f15089173469cf2cacaf8c1f86, type: 2}
-  optionBCard: {fileID: 11400000, guid: 5256ea1d91c3bc247ada217f7b115cdb, type: 2}
+  optionACard:
+  - {fileID: 11400000, guid: ac1b36f15089173469cf2cacaf8c1f86, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionBCard:
+  - {fileID: 11400000, guid: 5256ea1d91c3bc247ada217f7b115cdb, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   endingCard: 0
