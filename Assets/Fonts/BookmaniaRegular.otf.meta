@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: a87a0a2c81f9be444a4e067502264465
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bookmania
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6baba1cd065139444a416f3c445fbd80, type: 3}
+  - {fileID: 12800000, guid: 16c2368c97e0795408e8032a362ead0a, type: 3}
+  - {fileID: 12800000, guid: f0a4bd225d99899488688efa7eb95588, type: 3}
+  - {fileID: 12800000, guid: a28db392efde1a648b00513698ee123d, type: 3}
+  - {fileID: 12800000, guid: 30d4335c20b240d419652ca53f030edf, type: 3}
+  - {fileID: 12800000, guid: 981417528d4c0b1479127c3232782017, type: 3}
+  - {fileID: 12800000, guid: f8b120294a03ec44b830d8f06000193d, type: 3}
+  - {fileID: 12800000, guid: 989fa42929cdcb545ada91125c879934, type: 3}
+  - {fileID: 12800000, guid: 5c39db1f9ed52574b82894e2327eb871, type: 3}
+  - {fileID: 12800000, guid: 31b11d150868a7849bcbed12d9a686f2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

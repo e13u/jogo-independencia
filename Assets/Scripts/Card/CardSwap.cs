@@ -10,6 +10,8 @@ public class CardSwap : MonoBehaviour
     float cardSideMargin = 0.5f;
     [SerializeField]
     float cardMarginTrigger = 1.5f;
+    [SerializeField]
+    float rotationAmount = 1.5f; 
 
     SpriteRenderer spr;
     bool isMouseOver = false;
@@ -35,6 +37,7 @@ public class CardSwap : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, initialPosition, cardReturnSpeed);
             GameManager.Instance.CardOptionAlpha(0);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
         if (transform.position.x > cardSideMargin)
@@ -47,9 +50,14 @@ public class CardSwap : MonoBehaviour
             //GameManager.Instance.CardOptionAlpha(Mathf.Min(-transform.position.x, 1));
             GameManager.Instance.CardOptionText(false);
         }
-        if (transform.position.x > cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.red;
-        else if (transform.position.x < -cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.green;
-        else GameManager.Instance.bckgRenderer.color = Color.blue;
+
+        //CHANGE BG COLOR
+        //if (transform.position.x > cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.red;
+        //else if (transform.position.x < -cardMarginTrigger) GameManager.Instance.bckgRenderer.color = Color.green;
+        //else GameManager.Instance.bckgRenderer.color = Color.blue;
+
+        //ROTATING CARD
+        transform.eulerAngles = new Vector3(0, 0, transform.position.x * rotationAmount);
     }
 
     private void OnMouseOver()

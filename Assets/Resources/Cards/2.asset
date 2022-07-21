@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   cardName: 2
-  cardSprite: {fileID: 0}
+  cardSprite: {fileID: 21300000, guid: 2544c15f0fa9a7548b7341e5deaf48b2, type: 3}
   optionAText: C
   optionBText: D
-  optionACard: {fileID: 0}
-  optionBCard: {fileID: 0}
-  endingCard: 0
+  optionACard:
+  - {fileID: 0}
+  optionBCard:
+  - {fileID: 0}
+  endingCard: 1
