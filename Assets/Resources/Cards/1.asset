@@ -12,16 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  cardName: 1
+  cardName: "Dom Jos\xE9"
   cardSprite: {fileID: 21300000, guid: 82fdde3b516093548a7830f8db2c3e78, type: 3}
   optionAText: A
   optionBText: B
   optionACard:
   - {fileID: 11400000, guid: ac1b36f15089173469cf2cacaf8c1f86, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
   optionBCard:
   - {fileID: 11400000, guid: 5256ea1d91c3bc247ada217f7b115cdb, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
   endingCard: 0

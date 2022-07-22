@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CardSwap : MonoBehaviour
 {
+    public Animator animatorCard;
+
     [SerializeField]
     float cardReturnSpeed = 1.0f;
     [SerializeField]
@@ -21,6 +23,7 @@ public class CardSwap : MonoBehaviour
     void Start()
     {
         spr = GetComponent<SpriteRenderer>();
+        animatorCard = GetComponent<Animator>();
         initialPosition = transform.position;
     }
 
@@ -80,5 +83,22 @@ public class CardSwap : MonoBehaviour
         {
             GameManager.Instance.ChooseOptionSide(false);
         }
+    }
+
+    public void ResetPosition()
+    {
+        transform.position = initialPosition;
+        transform.eulerAngles = new Vector3(0, 0, 0);
+    }
+
+    public void TurnOffAnimator()
+    {
+        animatorCard.enabled = false;
+    }
+
+    public void PlayFlipAnimation()
+    {
+        animatorCard.enabled = true;
+        animatorCard.SetTrigger("flip");
     }
 }

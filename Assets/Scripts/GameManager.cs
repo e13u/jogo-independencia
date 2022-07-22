@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text cardQuestionText;
     [SerializeField] private TMP_Text cardOptionText;
     [SerializeField] private SpriteRenderer cardSpriteRenderer;
+    [SerializeField] private Button restartGameButton;
     public SpriteRenderer bckgRenderer;
 
     // Start is called before the first frame update
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         FirstCardShow();
+        restartGameButton.gameObject.SetActive(false);
     }
 
     void FirstCardShow()
@@ -45,7 +47,17 @@ public class GameManager : MonoBehaviour
     {
         cardName.text = card._cardName;
         cardSpriteRenderer.sprite = card._cardSprite;
-        if (card._endingCard) cardSwap.enabled = false;
+        FlipCard();
+        if (card._endingCard) {
+            FinishGame();
+        } 
+    }
+
+    void FinishGame()
+    {
+        cardSwap.ResetPosition();
+        cardSwap.enabled = false;
+        restartGameButton.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -98,5 +110,10 @@ public class GameManager : MonoBehaviour
             }
         }
         ShowCardData(currentCard);
+    }
+
+    void FlipCard()
+    {
+        cardSwap.PlayFlipAnimation();
     }
 }
