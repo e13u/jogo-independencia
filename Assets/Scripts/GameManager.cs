@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpriteRenderer cardSpriteRenderer;
     [SerializeField] private Button restartGameButton;
     public SpriteRenderer bckgRenderer;
+    [SerializeField] private List<Color> backgroundColors;
+    [SerializeField] private List<Color> textColors;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +50,24 @@ public class GameManager : MonoBehaviour
         cardName.text = card._cardName;
         cardQuestionText.text = card._cardQuestion;
         cardSpriteRenderer.sprite = card._cardSprite;
+        cardQuestionText.color = textColors[0];
+
+        switch (card._cardColor)
+        {
+            case CardColor.GREEN:
+                bckgRenderer.color = backgroundColors[0];
+                break;
+            case CardColor.YELLOW:
+                bckgRenderer.color = backgroundColors[1];
+                break;
+            case CardColor.ORANGE:
+                bckgRenderer.color = backgroundColors[2];
+                break;
+            case CardColor.RED:
+                bckgRenderer.color = backgroundColors[3];
+                cardQuestionText.color = textColors[1];
+                break;
+        }
         FlipCard();
         if (card._endingCard) {
             FinishGame();
@@ -58,6 +78,7 @@ public class GameManager : MonoBehaviour
     {
         cardSwap.ResetPosition();
         cardSwap.enabled = false;
+        cardOptionText.text = "Reiniciar Jogo";
         restartGameButton.gameObject.SetActive(true);
     }
 

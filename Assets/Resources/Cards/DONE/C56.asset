@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C56
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: a6b0a77107e1d5342a188d098db8ea85, type: 3}
+  cardQuestion: "A corte portuguesa decide se curvar perante Napole\xE3o. A fim de
+    financiar sua m\xE1quina de guerra, o general franc\xEAs exige receber todas
+    as riquezas vindas do Brasil."
+  optionAText: "Ora essa! Vamos lutar pela nossa p\xE1tria!"
+  optionACard:
+  - {fileID: 11400000, guid: 5a306c9e963cf0e4e92e057702a08335, type: 2}
+  optionBText: "\xC9 uma cilada, D. Jo\xE3o! Foge!"
+  optionBCard:
+  - {fileID: 11400000, guid: c1179d666306afb43b1c7d029702fe60, type: 2}
+  cardColor: 1
+  endingCard: 0

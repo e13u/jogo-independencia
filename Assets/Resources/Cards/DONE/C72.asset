@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C72
+  m_EditorClassIdentifier: 
+  cardName: 'Caetano Pinto de Miranda Montenegro '
+  cardSprite: {fileID: 21300000, guid: ed3ebf182cae31d4fa371d2323878834, type: 3}
+  cardQuestion: "O governador da prov\xEDncia de Pernambuco, Caetano de Miranda,
+    fica sabendo dessa organiza\xE7\xE3o das elites locais. Ser\xE1 melhor reprimir
+    o movimento ou esperar pra ver o que pode acontecer?"
+  optionAText: Prendam os envolvidos nessa revolta!
+  optionACard:
+  - {fileID: 11400000, guid: e9e3b37dd769fb64fa13a7bef8e1cea7, type: 2}
+  optionBText: "Melhor esperar pra ver no que d\xE1..."
+  optionBCard:
+  - {fileID: 11400000, guid: 0bb690015a5bd134782800b505411b93, type: 2}
+  cardColor: 0
+  endingCard: 0

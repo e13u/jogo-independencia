@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C66
+  m_EditorClassIdentifier: 
+  cardName: 'General William Beresford '
+  cardSprite: {fileID: 21300000, guid: b931e9c62a6769b4b801c8cb437f8cd2, type: 3}
+  cardQuestion: "O brit\xE2nico William Beresford,  marechal do Ex\xE9rcito Portugu\xEAs
+    e regente de Portugal, descobre uma conspira\xE7\xE3o em Lisboa para derrub\xE1-lo
+    do poder e trazer de volta a fam\xEDlia real portuguesa."
+  optionAText: "Acabar com a Conspira\xE7\xE3o e executar seu l\xEDder!"
+  optionACard:
+  - {fileID: 11400000, guid: b7dc94bad6a386248affb92082e027ff, type: 2}
+  optionBText: "Deixe eles conspirarem, D. Jo\xE3o nem quer voltar..."
+  optionBCard:
+  - {fileID: 11400000, guid: f2ceed94cd98fc6428234fdb39d9c895, type: 2}
+  cardColor: 0
+  endingCard: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C54
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: cbb3df2cdacfb8042ac5c788e8ccfc5a, type: 3}
+  cardQuestion: "As pessoas come\xE7aram a morrer de anemia. Quem escapou, morreu
+    em decorr\xEAncia das feridas infectadas. A cada dia mais e mais corpos s\xE3o
+    jogados ao mar."
+  optionAText: Lascou.
+  optionACard:
+  - {fileID: 11400000, guid: dae4cda746cf75c4c8fa4450f1132c79, type: 2}
+  optionBText: E agora?!
+  optionBCard:
+  - {fileID: 11400000, guid: dae4cda746cf75c4c8fa4450f1132c79, type: 2}
+  cardColor: 2
+  endingCard: 0

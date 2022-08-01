@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C52
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: d6bfd56c2a288b74b8fcd64a6d62e455, type: 3}
+  cardQuestion: "De tranquila a viagem n\xE3o tem nada. N\xE3o h\xE1 comida suficiente
+    para todos e o racionamento come\xE7ou. Sem falar no surto de piolhos que est\xE1
+    deixando todo mundo doido. Como resolver?"
+  optionAText: "Gente, \xE9 s\xF3 piolho, logo chegaremos ao Brasil."
+  optionACard:
+  - {fileID: 11400000, guid: a0caa41c6ed48144c962ebff56b3b679, type: 2}
+  optionBText: "Raspem a cabe\xE7a de todos, homens e mulheres!"
+  optionBCard:
+  - {fileID: 11400000, guid: d2655a7b6d0344a4eb16085ebeb6f207, type: 2}
+  cardColor: 0
+  endingCard: 0

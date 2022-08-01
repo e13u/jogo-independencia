@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C71
+  m_EditorClassIdentifier: 
+  cardName: "Domingos Jos\xE9 Martins e Frei Caneca "
+  cardSprite: {fileID: 21300000, guid: 273116ac1640c844698511b833198abd, type: 3}
+  cardQuestion: "Inspirados por ideais iluministas, os padres do Semin\xE1rio de
+    Olinda est\xE3o entre os que mais clamam por liberdade para Pernambuco. Mas muitos
+    militares e membros das elites pernambucanas tamb\xE9m est\xE3o insatisfeitos
+    com o governo portugu\xEAs e querem se organizar para confront\xE1-lo."
+  optionAText: Pernambuco independente!
+  optionACard:
+  - {fileID: 11400000, guid: 870c7e322b3d275408d60dde3352bdbe, type: 2}
+  optionBText: Vamos nos revoltar!
+  optionBCard:
+  - {fileID: 11400000, guid: 870c7e322b3d275408d60dde3352bdbe, type: 2}
+  cardColor: 0
+  endingCard: 0

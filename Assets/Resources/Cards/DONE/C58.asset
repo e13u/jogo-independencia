@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C58
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: a6b0a77107e1d5342a188d098db8ea85, type: 3}
+  cardQuestion: "O Brasil \xE9 elevado de col\xF4nia a parte do Reino Unido de Portugal
+    e Algarves.  D. Jo\xE3o continua reinando do Brasil. Mas... como ser\xE1 que
+    isso era visto l\xE1 em Portugal?"
+  optionAText: "Quem liga se a capital \xE9 em outro continente..."
+  optionACard:
+  - {fileID: 11400000, guid: bd04adb6608d3d84a844f38aa9ed1957, type: 2}
+  optionBText: "Que absurdo! Queremos D. Jo\xE3o de volta j\xE1!"
+  optionBCard:
+  - {fileID: 11400000, guid: bd04adb6608d3d84a844f38aa9ed1957, type: 2}
+  cardColor: 0
+  endingCard: 0

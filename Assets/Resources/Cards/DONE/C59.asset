@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C59
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: 82fdde3b516093548a7830f8db2c3e78, type: 3}
+  cardQuestion: "Portugal aceitou que Jo\xE3o governasse temporariamente do outro
+    lado do Atl\xE2ntico, desde que se comprometesse a voltar assim que poss\xEDvel.
+    O que ele deve fazer?"
+  optionAText: "Fingir que j\xE1 vai e enrolar."
+  optionACard:
+  - {fileID: 11400000, guid: bd04adb6608d3d84a844f38aa9ed1957, type: 2}
+  optionBText: "Fingir que n\xE3o ouviu o chamado."
+  optionBCard:
+  - {fileID: 11400000, guid: 4c719dc540889da4d88dda69122a9d0b, type: 2}
+  cardColor: 1
+  endingCard: 0

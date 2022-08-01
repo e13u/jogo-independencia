@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C51
+  m_EditorClassIdentifier: 
+  cardName: "Napole\xE3o Bonaparte "
+  cardSprite: {fileID: 21300000, guid: c824b04809ccf7146aa422aaac1368f6, type: 3}
+  cardQuestion: "As tropas francesas invadem Lisboa e em poucos dias derrotam o ex\xE9rcito
+    portugu\xEAs. D. Jo\xE3o e Carlota Joaquina s\xE3o assassinados.  Napole\xE3o
+    divide o Brasil col\xF4nia com a Espanha."
+  optionAText: Mas e Portugal?
+  optionACard:
+  - {fileID: 11400000, guid: 353e453dbd8c0e749a68723e44616d30, type: 2}
+  optionBText: "N\xE3o \xE9 poss\xEDvel!"
+  optionBCard:
+  - {fileID: 11400000, guid: 353e453dbd8c0e749a68723e44616d30, type: 2}
+  cardColor: 2
+  endingCard: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C57
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: a6b0a77107e1d5342a188d098db8ea85, type: 3}
+  cardQuestion: "A corte portuguesa se instala no Rio de Janeiro. D. Jo\xE3o se apaixona
+    pelo Brasil e decide investir em sa\xFAde, educa\xE7\xE3o, cultura, ci\xEAncias,
+    infraestrutura, administra\xE7\xE3o p\xFAblica. Mas, as guerras napole\xF4nicas
+    chegam ao fim e o povo portugu\xEAs clama pelo retorno de sua fam\xEDlia real."
+  optionAText: "D\xE1 pra governar daqui se o Brasil virar reino!"
+  optionACard:
+  - {fileID: 11400000, guid: e6249c9902115034a87d5399bac24bd1, type: 2}
+  optionBText: "Mas a gente acabou de chegar, espera a\xED."
+  optionBCard:
+  - {fileID: 11400000, guid: 59359df1150c11c4e9b17150edb8f5cd, type: 2}
+  cardColor: 0
+  endingCard: 0

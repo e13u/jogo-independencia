@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C55
+  m_EditorClassIdentifier: 
+  cardName: "D. Jo\xE3o VI (cabe\xE7a raspada) (1808) "
+  cardSprite: {fileID: 21300000, guid: 82fdde3b516093548a7830f8db2c3e78, type: 3}
+  cardQuestion: "Sem o surto de piolhos, os viajantes conseguiram atracar em Salvador
+    ap\xF3s 54 dias de viagem. A fam\xEDlia real portuguesa chega ao Brasil em 22
+    de janeiro de 1808. A bordo estavam o regente D. Jo\xE3o VI, sua esposa Carlota
+    e Pedro, um menino de 10 anos."
+  optionAText: "Estou no para\xEDso! Que abund\xE2ncia!"
+  optionACard:
+  - {fileID: 11400000, guid: 5bb3bc794f1573c4fad541280771671a, type: 2}
+  optionBText: Brasil, terra boa e gostosa!
+  optionBCard:
+  - {fileID: 11400000, guid: 5bb3bc794f1573c4fad541280771671a, type: 2}
+  cardColor: 0
+  endingCard: 0
