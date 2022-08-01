@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C30
+  m_EditorClassIdentifier: 
+  cardName: "Joaquim Jos\xE9 da Silva Xavier "
+  cardSprite: {fileID: 21300000, guid: fa6ee9f347287ea4fa940064badbc319, type: 3}
+  cardQuestion: "Come\xE7a em Vila Rica uma revolta que se espalha por toda a prov\xEDncia.
+    A coroa portuguesa envia tropas da capital para reprimir o movimento. Como os
+    Inconfidentes poder\xE3o resistir?"
+  optionAText: Pedindo ajuda aos franceses.
+  optionACard:
+  - {fileID: 11400000, guid: 2ae3603db916db243be23dd0f48dc67c, type: 2}
+  optionBText: Pedindo ajuda aos americanos.
+  optionBCard:
+  - {fileID: 11400000, guid: fd37b71eab78df94d83fb129ef72d767, type: 2}
+  cardColor: 1
+  endingCard: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C28
+  m_EditorClassIdentifier: 
+  cardName: "Joaquim Jos\xE9 da Silva Xavier "
+  cardSprite: {fileID: 21300000, guid: f0c85d8b934f80c4ba02a95ef4c47a65, type: 3}
+  cardQuestion: "Um grupo de pessoas - vamos cham\xE1-los de Inconfidentes - est\xE1
+    se organizando pelo fim da explora\xE7\xE3o de Portugal sobre a col\xF4nia. Um
+    dos membros mais empolgados \xE9 o dentista Joaquim, mais conhecido como Tiradentes."
+  optionAText: Vamos fazer a revolta em Vila Rica!
+  optionACard:
+  - {fileID: 11400000, guid: 002bade01515be84abc45ba07e3855f6, type: 2}
+  optionBText: "Abaixo a explora\xE7\xE3o portuguesa!"
+  optionBCard:
+  - {fileID: 11400000, guid: 002bade01515be84abc45ba07e3855f6, type: 2}
+  cardColor: 0
+  endingCard: 0

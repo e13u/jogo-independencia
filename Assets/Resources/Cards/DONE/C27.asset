@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C27
+  m_EditorClassIdentifier: 
+  cardName: "Joaquim Jos\xE9 da Silva Xavier (1792) "
+  cardSprite: {fileID: 21300000, guid: 659f1a38a46ef7449b1f1f125024d59b, type: 3}
+  cardQuestion: "O dentista Tiradentes foi o escolhido para ser punido. Depois de
+    tr\xEAs anos preso, foi enforcado e esquartejado no dia 21 de abril de 1792.
+    Foi o fim da Inconfid\xEAncia Mineira. Mas n\xE3o do  desejo de independ\xEAncia."
+  optionAText: 
+  optionACard:
+  - {fileID: 11400000, guid: 4aba89bcee3b2134e8a707335d023694, type: 2}
+  optionBText: 
+  optionBCard:
+  - {fileID: 11400000, guid: 4aba89bcee3b2134e8a707335d023694, type: 2}
+  cardColor: 0
+  endingCard: 0

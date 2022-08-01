@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C44
+  m_EditorClassIdentifier: 
+  cardName: "Lucas Dantas, Manuel Faustino, Lu\xEDs Gonzaga e Jo\xE3o de Deus "
+  cardSprite: {fileID: 21300000, guid: 3e8d6128f8c6862408e8206b7bc44302, type: 3}
+  cardQuestion: "O movimento \xE9 formado principalmente por negros, escravizados
+    e mesti\xE7os pobres. Os quatro l\xEDderes parecem ser pessoas humildes."
+  optionAText: Queremos o fim da pobreza!
+  optionACard:
+  - {fileID: 11400000, guid: 635750a6e37324147bd07e2473f15743, type: 2}
+  optionBText: Queremos nos libertar de Portugal!
+  optionBCard:
+  - {fileID: 11400000, guid: 635750a6e37324147bd07e2473f15743, type: 2}
+  cardColor: 0
+  endingCard: 0

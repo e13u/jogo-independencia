@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
     void ShowCardData(CardInfo card)
     {
         cardName.text = card._cardName;
+        cardQuestionText.text = card._cardQuestion;
         cardSpriteRenderer.sprite = card._cardSprite;
         FlipCard();
         if (card._endingCard) {

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C10
+  m_EditorClassIdentifier: 
+  cardName: "D. Mariana Vit\xF3ria "
+  cardSprite: {fileID: 21300000, guid: d6b6f40e6ff73574584130d5ab804195, type: 3}
+  cardQuestion: "A rela\xE7\xE3o entre Portugal e Espanha n\xE3o vai bem. Se algo
+    n\xE3o for feito para melhor\xE1-la, pode haver guerra em breve! D. Mariana \xE9
+    irm\xE3 do rei da Espanha, quem sabe n\xE3o pode intervir."
+  optionAText: "Vai l\xE1, D. Mariana"
+  optionACard:
+  - {fileID: 11400000, guid: 731cea31455103b4db0773889f07cda5, type: 2}
+  optionBText: "Deixa os espanh\xF3is pra l\xE1!"
+  optionBCard:
+  - {fileID: 11400000, guid: 3423602c411d85544a193f4fc7380000, type: 2}
+  cardColor: 0
+  endingCard: 0

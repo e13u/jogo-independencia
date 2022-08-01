@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C47
+  m_EditorClassIdentifier: 
+  cardName: '1807 '
+  cardSprite: {fileID: 21300000, guid: faafbe4940a4ad644b3813b7df41dcf0, type: 3}
+  cardQuestion: "Napole\xE3o se torna um dos mais destacados militares de sua \xE9poca,
+    derrotando diversos pa\xEDses europeus nas chamadas guerras napole\xF4nicas.
+    Seu objetivo agora \xE9 bater a rival Inglaterra. Para isso, vai pressionar as
+    na\xE7\xF5es amigas dos ingleses, como Portugal."
+  optionAText: 
+  optionACard:
+  - {fileID: 11400000, guid: 69b9562264f01f04c94579b9961e2ed8, type: 2}
+  optionBText: 
+  optionBCard:
+  - {fileID: 11400000, guid: 69b9562264f01f04c94579b9961e2ed8, type: 2}
+  cardColor: 0
+  endingCard: 0

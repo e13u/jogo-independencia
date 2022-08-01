@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C43
+  m_EditorClassIdentifier: 
+  cardName: "Lucas Dantas, Manuel Faustino, Lu\xEDs Gonzaga e Jo\xE3o de Deus (1798)"
+  cardSprite: {fileID: 21300000, guid: 651ce6b9a31e4104b8bf762feeef6359, type: 3}
+  cardQuestion: "Negros e pobres, os quatro l\xEDderes da conspira\xE7\xE3o foram
+    condenados \xE0 forca e esquartejados para servir de exemplo. Os conspiradores
+    com mais condi\xE7\xF5es receberam penas mais brandas ou foram perdoados. Foi
+    o fim da Conjura\xE7\xE3o Baiana. Mas n\xE3o do desejo de independ\xEAncia."
+  optionAText: 
+  optionACard:
+  - {fileID: 11400000, guid: 4aba89bcee3b2134e8a707335d023694, type: 2}
+  optionBText: 
+  optionBCard:
+  - {fileID: 11400000, guid: 4aba89bcee3b2134e8a707335d023694, type: 2}
+  cardColor: 0
+  endingCard: 0

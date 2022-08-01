@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C26
+  m_EditorClassIdentifier: 
+  cardName: 'D. Maria I '
+  cardSprite: {fileID: 21300000, guid: fc57db2025d282941aa60e01b251cb8b, type: 3}
+  cardQuestion: "Tamb\xE9m conhecida como \"a piedosa\", a rainha Maria decide perdoar
+    os revoltosos e cancelar a \"derrama\" de impostos. Desde que haja uma puni\xE7\xE3o
+    exemplar para que o movimento n\xE3o se repita."
+  optionAText: "O neg\xF3cio \xE9 esquartejar!"
+  optionACard:
+  - {fileID: 11400000, guid: 04ce65fe9a59a6f44afde5f1b0b88465, type: 2}
+  optionBText: "O neg\xF3cio \xE9 enforcar!"
+  optionBCard:
+  - {fileID: 11400000, guid: 04ce65fe9a59a6f44afde5f1b0b88465, type: 2}
+  cardColor: 0
+  endingCard: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C14
+  m_EditorClassIdentifier: 
+  cardName: 'D. Maria I '
+  cardSprite: {fileID: 21300000, guid: 22faf12b801276d468a19ebf003bb0f7, type: 3}
+  cardQuestion: "Espanha e Portugal entram em guerra, que se estende por anos. Portugal
+    n\xE3o consegue vencer o poderio b\xE9lico da Espanha e est\xE1 prestes a perder
+    a guerra."
+  optionAText: "Vamos lutar at\xE9 o fm!"
+  optionACard:
+  - {fileID: 11400000, guid: 479ce7c4838ac1c49a3edd8768e3f881, type: 2}
+  optionBText: Vamos nos render! Bandeira branca!
+  optionBCard:
+  - {fileID: 11400000, guid: a6c819e9dec220c45982636ce1cac8ba, type: 2}
+  cardColor: 2
+  endingCard: 0

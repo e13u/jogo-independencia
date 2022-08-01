@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C2
+  m_EditorClassIdentifier: 
+  cardName: "D. Jos\xE9 I (1763) "
+  cardSprite: {fileID: 21300000, guid: a6b0a77107e1d5342a188d098db8ea85, type: 3}
+  cardQuestion: "Reconstruir Lisboa custa caro. Ainda bem que h\xE1 muito ouro vindo
+    do Brasil. O problema \xE9 que o garimpo est\xE1 nas Minas Gerais, e a capital
+    da col\xF4nia fica longe, em Salvador. Como podemos melhorar essa log\xEDstica?"
+  optionAText: Deixa a capital em Salvador.
+  optionACard:
+  - {fileID: 11400000, guid: f73c7c31d3d22e648a6f29284568befd, type: 2}
+  optionBText: Muda a capital pro Rio de Janeiro!
+  optionBCard:
+  - {fileID: 11400000, guid: 3d82e500be5a43548a0e1f596529cd41, type: 2}
+  cardColor: 0
+  endingCard: 0

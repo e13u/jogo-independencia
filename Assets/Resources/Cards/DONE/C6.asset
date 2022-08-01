@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C6
+  m_EditorClassIdentifier: 
+  cardName: 'Rio capital do Brasil (1763) '
+  cardSprite: {fileID: 0}
+  cardQuestion: "O Rio de Janeiro \xE9 a nova capital do Brasil col\xF4nia!"
+  optionAText: "\xCA\xEA\xEA\xEA\xEA\xEA!"
+  optionACard:
+  - {fileID: 11400000, guid: 742f8f5d7d504ba46b0a6b81d48233e8, type: 2}
+  - {fileID: 11400000, guid: e2fa17d799e108645957010d56d515f8, type: 2}
+  optionBText: Melhor, mais perto do ouro...
+  optionBCard:
+  - {fileID: 11400000, guid: e2fa17d799e108645957010d56d515f8, type: 2}
+  - {fileID: 11400000, guid: 742f8f5d7d504ba46b0a6b81d48233e8, type: 2}
+  cardColor: 0
+  endingCard: 0

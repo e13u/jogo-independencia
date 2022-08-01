@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C7
+  m_EditorClassIdentifier: 
+  cardName: 'D. Maria I '
+  cardSprite: {fileID: 21300000, guid: facbd3b37e33f7a4698d50a616dbd53f, type: 3}
+  cardQuestion: "A rela\xE7\xE3o entre Espanha e Portugal continua dif\xEDcil. Para
+    aproximar os reinos, um casamento \xE9 a melhor pedida! Que tal unirmos o  infante
+    Jo\xE3o, de Portugal, com a infanta Carlota, da Espanha?"
+  optionAText: Sim!
+  optionACard:
+  - {fileID: 11400000, guid: 0515d39e2b565d44eb7cfdb216086c9e, type: 2}
+  optionBText: "Ah, n\xE3o."
+  optionBCard:
+  - {fileID: 11400000, guid: b700030ba5399ad40877fc66a0ec57de, type: 2}
+  cardColor: 0
+  endingCard: 0

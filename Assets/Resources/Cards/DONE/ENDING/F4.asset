@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: F4
+  m_EditorClassIdentifier: 
+  cardName: 'Tiradentes Presidente '
+  cardSprite: {fileID: 21300000, guid: efa9ba2289b6c3743bc31862e1f905a6, type: 3}
+  cardQuestion: "Minas Gerais torna-se um pa\xEDs independente, a Rep\xFAblica de
+    Minas Gerais. Seu primeiro presidente eleito \xE9 Joaquim Jos\xE9 da Silva Xavier,
+    o Tiradentes. Outras prov\xEDncias, como a Bahia, seguiram seu exemplo, e hoje
+    o que seria o Brasil \xE9 um conjunto de diversos pa\xEDses menores. A Argentina
+    \xE9 o maior pa\xEDs da Am\xE9rica do Sul."
+  optionAText: 
+  optionACard: []
+  optionBText: 
+  optionBCard: []
+  cardColor: 3
+  endingCard: 1

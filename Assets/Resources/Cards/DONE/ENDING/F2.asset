@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: F2
+  m_EditorClassIdentifier: 
+  cardName: "Brasil dividido em v\xE1rios "
+  cardSprite: {fileID: 0}
+  cardQuestion: "As tropas partem de Salvador para conter a revolta. Quando chegam
+    ao Rio, s\xE3o derrotadas por mercen\xE1rios contratados com o ouro mineiro.
+    Portugal perde o controle da col\xF4nia. As prov\xEDncias tornam-se pa\xEDses
+    independentes. Atualmente o maior pa\xEDs da Am\xE9rica do Sul \xE9 a Argentina."
+  optionAText: 
+  optionACard: []
+  optionBText: 
+  optionBCard: []
+  cardColor: 3
+  endingCard: 1

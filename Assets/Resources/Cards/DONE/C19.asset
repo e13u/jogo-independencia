@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C19
+  m_EditorClassIdentifier: 
+  cardName: "Marqu\xEAs de Pombal"
+  cardSprite: {fileID: 21300000, guid: 3e8d6128f8c6862408e8206b7bc44302, type: 3}
+  cardQuestion: "A reconstru\xE7\xE3o de Lisboa est\xE1 a todo vapor! Mas o dinheiro
+    vem do ouro de Minas Gerais, no Brasil col\xF4nia, e a popula\xE7\xE3o de l\xE1
+    est\xE1 muito insatisfeita com os aumentos de impostos..."
+  optionAText: "Mas Lisboa est\xE1 ficando linda..."
+  optionACard:
+  - {fileID: 11400000, guid: e3f7e64a39f2d6047a1ada48a64b3059, type: 2}
+  optionBText: Como assim, insatisfeita?
+  optionBCard:
+  - {fileID: 11400000, guid: e3f7e64a39f2d6047a1ada48a64b3059, type: 2}
+  cardColor: 0
+  endingCard: 0

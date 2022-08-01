@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C29
+  m_EditorClassIdentifier: 
+  cardName: 'Visconde de Barbacena '
+  cardSprite: {fileID: 21300000, guid: 8e12e987a0ce0c048bd536981897f425, type: 3}
+  cardQuestion: "Joaquim Silv\xE9rio, um dos inconfidentes, procura o governador
+    Visconde de Barbacena para denunciar o grupo em troca de ter sua d\xEDvida com
+    a coroa perdoada. O que devemos fazer?"
+  optionAText: Esquece esse movimento! Quero saber dos impostos.
+  optionACard:
+  - {fileID: 11400000, guid: 24b1b26639eec7c42afbe2de8c70b99c, type: 2}
+  optionBText: Vamos acabar com esse movimento!
+  optionBCard:
+  - {fileID: 11400000, guid: 7db000e19024d0748b56aa492fc6f264, type: 2}
+  cardColor: 1
+  endingCard: 0

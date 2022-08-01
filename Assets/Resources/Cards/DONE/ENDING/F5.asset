@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: F5
+  m_EditorClassIdentifier: 
+  cardName: 'Lucas Dantas Presidente '
+  cardSprite: {fileID: 21300000, guid: efa9ba2289b6c3743bc31862e1f905a6, type: 3}
+  cardQuestion: "A revolta, conhecida como Conjura\xE7\xE3o Baiana, iniciou uma guerra
+    que culminou na independ\xEAncia da Bahia! Lucas Dantas foi eleito presidente
+    e hoje a Rep\xFAblica da Bahia \xE9 o segundo maior pa\xEDs da Am\xE9rica do
+    Sul, menor apenas que a Argentina. O Brasil, como pa\xEDs independente, nunca
+    chegou a existir."
+  optionAText: 
+  optionACard: []
+  optionBText: 
+  optionBCard: []
+  cardColor: 3
+  endingCard: 1
