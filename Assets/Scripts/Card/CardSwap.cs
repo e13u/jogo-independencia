@@ -30,7 +30,7 @@ public class CardSwap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameManager.Instance.CardOptionAlpha(Mathf.Min(Mathf.Abs(transform.position.x / 2), 1));
+        GameManager.Instance.CardOptionAlpha(Mathf.Min(Mathf.Sqrt(Mathf.Abs((transform.position.x+cardSideMargin) / 2)), 1));
         if (Input.GetMouseButton(0) && isMouseOver)
         {
             Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -46,12 +46,16 @@ public class CardSwap : MonoBehaviour
         if (transform.position.x > cardSideMargin)
         {
             //GameManager.Instance.CardOptionAlpha(Mathf.Min(transform.position.x, 1));
-            GameManager.Instance.CardOptionText(true);
+            GameManager.Instance.CardOptionText(0);
         }
         else if(transform.position.x < -cardSideMargin)
         {
             //GameManager.Instance.CardOptionAlpha(Mathf.Min(-transform.position.x, 1));
-            GameManager.Instance.CardOptionText(false);
+            GameManager.Instance.CardOptionText(1);
+        }
+        else if(transform.position.x < cardSideMargin && transform.position.x > -cardSideMargin)
+        {
+            GameManager.Instance.CardOptionText(2);
         }
 
         //CHANGE BG COLOR

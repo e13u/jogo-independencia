@@ -92,19 +92,25 @@ public class GameManager : MonoBehaviour
     {
         cardOptionText.alpha = value;
     }
-    public void CardOptionText(bool right)
+    public void CardOptionText(int id)
     {
-        string textOption;
+        string textOption = "";
 
-        if (right)
+        if (id == 0)
         {
             textOption = currentCard._optionBText;
+            cardOptionText.alignment = TextAlignmentOptions.Left;
         }
-        else
+        else if (id == 1)
         {
             textOption = currentCard._optionAText;
+            cardOptionText.alignment = TextAlignmentOptions.Right;
         }
-        cardOptionText.text = textOption;
+        else if (id == 2)
+        {
+            textOption = "";
+        }
+            cardOptionText.text = textOption;
     }
 
     public void ChooseOptionSide(bool right)
