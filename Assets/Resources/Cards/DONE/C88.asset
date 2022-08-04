@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C88
+  m_EditorClassIdentifier: 
+  cardName: "Sin\xE9drio "
+  cardSprite: {fileID: 21300000, guid: 518ee255e37043848a3f9a0ab932ac13, type: 3}
+  cardQuestion: "Com apoio das elites portuguesas e sob o lema de \"regenerar\" Portugal,
+    os revolucion\xE1rios ocupam a C\xE2mara Municipal do Porto em 24 de agosto de
+    1820, formando a Junta Provisional do Governo Supremo do Reino. Logo o movimento
+    chega a Lisboa e a outras cidades do reino. \xC9 a chamada Revolu\xE7\xE3o Liberal
+    do Porto."
+  optionAText: "Vamos elaborar uma nova Constitui\xE7\xE3o!"
+  optionACard:
+  - {fileID: 11400000, guid: 5489ed4d4a6bed8408b51ea89acb4381, type: 2}
+  optionBText: Vamos ordenar ao rei que volte a Portugal!
+  optionBCard:
+  - {fileID: 11400000, guid: 5489ed4d4a6bed8408b51ea89acb4381, type: 2}
+  cardColor: 0
+  endingCard: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C89
+  m_EditorClassIdentifier: 
+  cardName: "Dom Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: 82fdde3b516093548a7830f8db2c3e78, type: 3}
+  cardQuestion: "S\xE3o criadas, em Portugal, as Cortes Extraordin\xE1rias e a Constituinte
+    da Na\xE7\xE3o Portuguesa. As Cortes ordenam a D. Jo\xE3o que retorne a Portugal
+    e que jure obedi\xEAncia \xE0 nova Constitui\xE7\xE3o, pondo fim ao Absolutismo
+    e devolvendo o Brasil \xE0 condi\xE7\xE3o de col\xF4nia. E agora?"
+  optionAText: "D. Jo\xE3o resiste e fica no Brasil."
+  optionACard:
+  - {fileID: 11400000, guid: a5e6074cba3658a4c81fb5e23ec8a92f, type: 2}
+  optionBText: "D. Jo\xE3o volta, deixando Pedro no  Brasil."
+  optionBCard:
+  - {fileID: 11400000, guid: f0d570fd2d2d8214ca03bfca0bacc511, type: 2}
+  cardColor: 0
+  endingCard: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C87
+  m_EditorClassIdentifier: 
+  cardName: "Sin\xE9drio"
+  cardSprite: {fileID: 0}
+  cardQuestion: "Com fortes la\xE7os com a ma\xE7onaria, o Sin\xE9drio \xE9 uma organiza\xE7\xE3o
+    secreta que busca o fim da reg\xEAncia inglesa e a instala\xE7\xE3o de uma monarquia
+    constitucional em Portugal."
+  optionAText: "Vamos organizar uma revolu\xE7\xE3o!"
+  optionACard:
+  - {fileID: 11400000, guid: a65562d6fb5ea6a439849a8e5ceb1415, type: 2}
+  optionBText: "Precisamos regenerar este pa\xEDs!"
+  optionBCard:
+  - {fileID: 11400000, guid: a65562d6fb5ea6a439849a8e5ceb1415, type: 2}
+  cardColor: 0
+  endingCard: 0

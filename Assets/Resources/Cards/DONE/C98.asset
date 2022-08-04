@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C98
+  m_EditorClassIdentifier: 
+  cardName: 'Dom Pedro I '
+  cardSprite: {fileID: 21300000, guid: cdbaabb17f8cbda458a8d949f8f604c5, type: 3}
+  cardQuestion: "Pedro e Leopoldina s\xE3o aclamados pela elite carioca. No dia 9
+    de janeiro de 1822, ele recebe do Senado um documento com mais de 8 mil assinaturas
+    pedindo-lhe que n\xE3o volte para Portugal. Ele ent\xE3o proclama: \"se \xE9
+    para o bem de todos e felicidade geral da na\xE7\xE3o, digo ao povo que fico\".
+    A data fica conhecida como o Dia do Fico."
+  optionAText: Viva Pedro! Viva Leopoldina!
+  optionACard:
+  - {fileID: 11400000, guid: 0ad7502f1409d3b41bd5813e4981084a, type: 2}
+  optionBText: "\xCA\xEA\xEA\xEA\xEA!"
+  optionBCard:
+  - {fileID: 11400000, guid: 0ad7502f1409d3b41bd5813e4981084a, type: 2}
+  cardColor: 0
+  endingCard: 0

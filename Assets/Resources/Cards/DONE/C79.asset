@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C79
+  m_EditorClassIdentifier: 
+  cardName: "Execu\xE7\xE3o de Frei Caneca "
+  cardSprite: {fileID: 21300000, guid: 89b1573a6502a024385b138b2c0336dd, type: 3}
+  cardQuestion: "Os l\xEDderes do movimento tiveram puni\xE7\xF5es exemplares. 13
+    pessoas foram executadas. Frei Caneca e Domingos Jos\xE9 Martins foram fuzilados
+    e Jos\xE9 de Barros Lima, enforcado. O Padre Jo\xE3o Ribeiro, ao saber da derrota
+    da revolu\xE7\xE3o, enforcou-se antes de ser capturado. Foi o fim da Revolu\xE7\xE3o
+    Pernambucana, tamb\xE9m conhecida como Revolu\xE7\xE3o dos Padres."
+  optionAText: Ufa, essa foi por pouco...
+  optionACard:
+  - {fileID: 11400000, guid: 46f2b3f9c6d66fa4c8e107f5624e8a61, type: 2}
+  optionBText: "Finalmente acabamos com a revolu\xE7\xE3o!"
+  optionBCard:
+  - {fileID: 11400000, guid: 46f2b3f9c6d66fa4c8e107f5624e8a61, type: 2}
+  cardColor: 0
+  endingCard: 0

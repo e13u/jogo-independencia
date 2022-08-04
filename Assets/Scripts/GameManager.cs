@@ -9,13 +9,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CardSwap cardSwap;
     [SerializeField] private List<CardInfo> initialCards = new List<CardInfo>();
     [SerializeField] private CardInfo currentCard;
+    [SerializeField] private bool endGame;
     [Space]
     [Header("UI Elements")]
     [SerializeField] private TMP_Text cardName;
     [SerializeField] private TMP_Text cardQuestionText;
     [SerializeField] private TMP_Text cardOptionText;
     [SerializeField] private SpriteRenderer cardSpriteRenderer;
-    [SerializeField] private Button restartGameButton;
     public SpriteRenderer bckgRenderer;
     [SerializeField] private List<Color> backgroundColors;
     [SerializeField] private List<Color> textColors;
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         FirstCardShow();
-        restartGameButton.gameObject.SetActive(false);
+        endGame = false;
     }
 
     void FirstCardShow()
@@ -76,10 +76,10 @@ public class GameManager : MonoBehaviour
 
     void FinishGame()
     {
+        endGame = true;
         cardSwap.ResetPosition();
-        cardSwap.enabled = false;
+        //cardSwap.enabled = false;
         cardOptionText.text = "Reiniciar Jogo";
-        restartGameButton.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -115,6 +115,11 @@ public class GameManager : MonoBehaviour
 
     public void ChooseOptionSide(bool right)
     {
+        if (endGame)
+        {
+            ScenesManager.Instance.StartGame();
+        } 
+
         if (right)
         {
             if(currentCard._optionBCard.Count == 1)

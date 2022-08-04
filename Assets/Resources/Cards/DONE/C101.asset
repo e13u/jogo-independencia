@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C101
+  m_EditorClassIdentifier: 
+  cardName: "Jos\xE9 Bonif\xE1cio "
+  cardSprite: {fileID: 21300000, guid: a12d632bcede1bf4bb5fa070d1afb8b8, type: 3}
+  cardQuestion: "As tropas de Pedro expulsam o general para Portugal e Jos\xE9 Bonif\xE1cio
+    \xE9 nomeado ministro do Reino e dos Neg\xF3cios Estrangeiros, tornando-se o
+    primeiro brasileiro a ocupar um minist\xE9rio."
+  optionAText: Precisamos acabar com esses decretos das Cortes!
+  optionACard:
+  - {fileID: 11400000, guid: acfe75aa37af16c4c89e54441a189615, type: 2}
+  optionBText: "Vamos criar uma Constitui\xE7\xE3o para o Brasil!"
+  optionBCard:
+  - {fileID: 11400000, guid: acfe75aa37af16c4c89e54441a189615, type: 2}
+  cardColor: 0
+  endingCard: 0

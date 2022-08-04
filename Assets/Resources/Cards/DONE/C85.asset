@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C85
+  m_EditorClassIdentifier: 
+  cardName: "Dom Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: 24c1160b2b2ee3e42941030267aba431, type: 3}
+  cardQuestion: "A not\xEDcia da Revolu\xE7\xE3o Pernambucana demora a chegar \xE0
+    corte portuguesa no Rio de Janeiro. Quando finalmente D. Jo\xE3o descobre, a
+    Rep\xFAblica de Pernambuco j\xE1 recebeu apoio do governo americano."
+  optionAText: "Agora j\xE1 era. Reconhecer a Rep\xFAblica de Pernambuco."
+  optionACard:
+  - {fileID: 11400000, guid: 64f93568b4f96a6449101d8b9b09be45, type: 2}
+  optionBText: "Reprimir a revolu\xE7\xE3o mesmo assim!"
+  optionBCard:
+  - {fileID: 11400000, guid: 2a6d248ad9b77284b9b43d91cba98f1f, type: 2}
+  cardColor: 2
+  endingCard: 0

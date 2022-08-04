@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C92
+  m_EditorClassIdentifier: 
+  cardName: "Dom Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: b931e9c62a6769b4b801c8cb437f8cd2, type: 3}
+  cardQuestion: "As esquadras portuguesas chegam ao litoral brasileiro e apontam
+    seus canh\xF5es para o Rio de Janeiro. A ordem \xE9 destruir a cidade se D. Jo\xE3o
+    n\xE3o seguir com eles. E agora?"
+  optionAText: "At\xE9 parece que v\xE3o atirar."
+  optionACard:
+  - {fileID: 11400000, guid: 5aa5170f3b553e44b9d7fe77b4f831ca, type: 2}
+  optionBText: "D. Jo\xE3o volta, deixando Pedro no Brasil."
+  optionBCard:
+  - {fileID: 11400000, guid: f0d570fd2d2d8214ca03bfca0bacc511, type: 2}
+  cardColor: 2
+  endingCard: 0

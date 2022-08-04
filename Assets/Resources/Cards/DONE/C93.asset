@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C93
+  m_EditorClassIdentifier: 
+  cardName: 'Dom Pedro I '
+  cardSprite: {fileID: 21300000, guid: cdbaabb17f8cbda458a8d949f8f604c5, type: 3}
+  cardQuestion: "Em 7 de mar\xE7o de 1821, D. Jo\xE3o VI nomeia seu filho mais velho,
+    D. Pedro de Alc\xE2ntara e Bragan\xE7a, ent\xE3o com 23 anos, pr\xEDncipe regente
+    do Brasil. Em 26 de abril do mesmo ano, D. Jo\xE3o retorna a Portugal, levando
+    consigo uma quantidade consider\xE1vel da riqueza dos cofres brasileiros, e aceita
+    jurar obedi\xEAncia \xE0 constitui\xE7\xE3o."
+  optionAText: "O garoto \xE9 bom, vai dar conta."
+  optionACard:
+  - {fileID: 11400000, guid: f96e0352fe1ab3343968e5fbfdf598da, type: 2}
+  optionBText: "Governar n\xE3o deve ser t\xE3o dif\xEDcil."
+  optionBCard:
+  - {fileID: 11400000, guid: f96e0352fe1ab3343968e5fbfdf598da, type: 2}
+  cardColor: 0
+  endingCard: 0

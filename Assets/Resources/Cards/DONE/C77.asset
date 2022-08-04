@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C77
+  m_EditorClassIdentifier: 
+  cardName: "Dom Jo\xE3o VI "
+  cardSprite: {fileID: 21300000, guid: cbb3df2cdacfb8042ac5c788e8ccfc5a, type: 3}
+  cardQuestion: "O governador de Pernambuco chega ao Rio de Janeiro e exp\xF5e a
+    situa\xE7\xE3o. D. Jo\xE3o VI n\xE3o fica nada satisfeito com uma de suas maiores
+    prov\xEDncias decretando independ\xEAncia e proclamando a Rep\xFAblica."
+  optionAText: Enviar a frota do Rio de Janeiro e as tropas da Bahia!
+  optionACard:
+  - {fileID: 11400000, guid: 2a6d248ad9b77284b9b43d91cba98f1f, type: 2}
+  optionBText: "Agora j\xE1 est\xE1 feito. Executar o governador!"
+  optionBCard:
+  - {fileID: 11400000, guid: 6e80b447a514fe64d8487477a69a3772, type: 2}
+  cardColor: 0
+  endingCard: 0

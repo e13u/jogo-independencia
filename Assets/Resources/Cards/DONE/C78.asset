@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4f7399896c6543b35fd30a99f180e, type: 3}
+  m_Name: C78
+  m_EditorClassIdentifier: 
+  cardName: "General Lu\xEDs do Rego Barreto "
+  cardSprite: {fileID: 0}
+  cardQuestion: "O rei enviou o general Lu\xEDs do Rego Barreto com mais de quatro
+    mil soldados da Bahia para reprimir a Revolu\xE7\xE3o Pernambucana. A frota portuguesa
+    fechou o porto de Recife, impedindo a fuga dos revolucion\xE1rios. Os pernambucanos
+    n\xE3o conseguiram resistir por muito tempo."
+  optionAText: Prender todos os envolvidos!
+  optionACard:
+  - {fileID: 11400000, guid: 53e5b61f92346be4ea697206da484b6e, type: 2}
+  optionBText: "Prender os l\xEDderes do movimento!"
+  optionBCard:
+  - {fileID: 11400000, guid: 53e5b61f92346be4ea697206da484b6e, type: 2}
+  cardColor: 0
+  endingCard: 0
